@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+ 
+}
+
+.tela{
+
+  
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #202020;
+
+
+
+}
+
+
+
+
+
+.card {
+  
+  
+  text-align: center;
+  width: 300px;
+  height: 500px;
+  max-width: 80%;
+  background-color: #303030;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px cornflowerblue;
+  border: 1px solid cornflowerblue;
+  font-family: verdana;
+  
+  
+  
+  
+}
+
+.ft_perfil{
+  
+  margin-top: 8%;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background-image: cover;
+  
+  
+  border: 1px solid cornflowerblue;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  
+  
+}
+
+
+.txt_nome{
+  font-size: 0.6rem;
+  color: blueviolet;
+  font-family: verdana;
+  
+}
+
+.nome_principal{
+   font-family: verdana;
+   color: cornflowerblue;
+  font-size: 1.3rem;
+}
+
+.nome_secundario{
+  font-family: verdana;
+  color: cornflowerblue;
+  font-size: 0.7rem;
+}
+
+.btn_link{
+    display: block;
+  padding: 10px;
+    background-color: cornflowerblue;
+  color: white;
+  margin: 4%;
+  border-radius: 0 9px 0 9px;
+  font-family: verdana;
+  font-size: 1rem;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border: 1px solid cornflowerblue;
+ 
+    
+}
+
+
+.btn_link:hover{
+   background-color: white;
+  color: cornflowerblue;
+}
+
+.compartilha{
+  width: 23px;
+  height: 23px;
+  margin-left: 76px;
+  margin-top: 2%;
+  position: absolute;
+  cursor: pointer;
+}
+
+#telinha{
+  
+  background-color: cornflowerblue;
+  font-size: 0.7rem;
+  width: 68%;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  color: white;
+  font-family: verdana;
+  display: flex;
+  cursor: default;
+}
+
+.skils{
+  
+  font-family: verdana;
+  font-size: 0.7rem;
+  color: cornflowerblue;
+  
+}
+
+.dash{
+   font-size: 0.7rem;
+  color: white;
+  padding: 1%;
+  border-radius: 10px;
+  font-family: verdana;
+  display: inline;
+  background-color: cornflowerblue;
+  box-shadow: 2px 2px 2px rgba(0.5);
+}
+
+/*     Configuração para tela de PC/Notebook         */
+
+@media screen and (min-width: 1000px)
+{
+  
+
+
+.card {
+  
+  text-align: center;
+  width: 600px;
+  height: 700px;
+  max-width: 80%;
+  background-color: #303030;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px cornflowerblue;
+  border: 1px solid cornflowerblue;
+  font-family: verdana;
+  
+  
+}
+
+.ft_perfil{
+  
+  margin-top: 8%;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  background-image: cover;
+  
+  
+  border: 1px solid cornflowerblue;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  
+  
+}
+
+.txt_nome{
+  font-size: 0.6rem;
+  color: blueviolet;
+  font-family: verdana;
+  
+}
+
+.nome_principal{
+   font-family: verdana;
+   color: cornflowerblue;
+  font-size: 1.3rem;
+}
+
+.nome_secundario{
+  font-family: verdana;
+  color: cornflowerblue;
+  font-size: 0.7rem;
+}
+
+
+#telinha{
+  
+  background-color: cornflowerblue;
+  font-size: 0.7rem;
+  width: 68%;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  color: white;
+  font-family: verdana;
+  display: flex;
+  cursor: default;
+}
+
+.compartilha{
+  width: 23px;
+  height: 23px;
+  margin-left: 15%;
+ 
+  margin-top: 1%;
+  position: absolute;
+  cursor: pointer;
+}
+
+
+.compartilha:hover{
+ 
+  width: 26px;
+  height: 26px;
+  transition: all 0.5s;
+  
+}
+
+
+.dash{
+   font-size: 0.7rem;
+  color: white;
+  padding: 1%;
+  border-radius: 15px;
+  font-family: verdana;
+  display: inline;
+  background-color: cornflowerblue;
+  box-shadow: 4px 4px 4px rgba(0.5);
+  cursor: default;
+
+}
+
+
+
+
+
+
+}
