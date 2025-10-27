@@ -294,7 +294,7 @@ body {
 .rodape{
 
   background-color: cornflowerblue;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: white;
   width: 70px;
   height: 30px;
@@ -306,6 +306,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: default;
 }
 
 
