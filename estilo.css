@@ -84,7 +84,7 @@ body {
   margin: 4%;
   border-radius: 0 9px 0 9px;
   font-family: verdana;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-decoration: none;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   border: 1px solid cornflowerblue;
@@ -158,6 +158,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: none;
 }
 
 
@@ -211,6 +212,7 @@ body {
    color: cornflowerblue;
   font-size: 1.4rem;
   letter-spacing: 2px;
+  cursor: default;
 }
 
 .nome_secundario{
@@ -218,6 +220,7 @@ body {
   color: cornflowerblue;
   font-size: 0.8rem;
   letter-spacing: 1px;
+  cursor: default;
 }
 
 
@@ -241,6 +244,7 @@ body {
 .btn_link{
     
   letter-spacing: 1px;
+  font-size: 1rem;
   
  
     
@@ -262,6 +266,7 @@ body {
   width: 26px;
   height: 26px;
   transition: all 0.5s;
+  
   
 }
 
